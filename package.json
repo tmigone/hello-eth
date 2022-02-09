@@ -1,0 +1,22 @@
+{
+  "name": "hello-eth",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Tomás Migone <tomasmigone@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@ethereumjs/common": "^2.6.2",
+    "@ethereumjs/devp2p": "^4.2.1",
+    "@ethereumjs/tx": "^3.5.0",
+    "ethrpc": "^6.2.4",
+    "web3": "^1.7.0"
+  },
+  "devDependencies": {
+    "standard": "^16.0.4",
+    "typescript": "^4.5.5"
+  }
+}
