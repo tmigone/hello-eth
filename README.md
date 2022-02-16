@@ -17,6 +17,7 @@ Content is organized in the following way:
 | Dapp  | Description |
 | ------------- | ------------- |
 | cryptozombies | My progress on building a zombie army: https://cryptozombies.io/ |
+| 500k-mistake | Some dude burnt 500k by transfering WETH tokens to the WETH smart contract. This is my attempt at replicating the mistake and testing a potential fix. |
 
 ### Dapps
 
