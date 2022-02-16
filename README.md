@@ -12,6 +12,12 @@ Content is organized in the following way:
 - dapps --> webapps that interact with the ethereum blockchain in some way
 - scripts --> random scripts
 
+### Contracts
+
+| Dapp  | Description |
+| ------------- | ------------- |
+| cryptozombies | My progress on building a zombie army: https://cryptozombies.io/ |
+
 ### Dapps
 
 | Dapp  | Description |
