@@ -27,3 +27,12 @@ Content is organized in the following way:
 | Dapp  | Description |
 | ------------- | ------------- |
 | chain-data  | Simple app that displays basic chain information. Connects to various clients with a few web3 libraries: <ul><li>libraries: web3.js/ethers</li><li>clients: web3, truffle develop, ganache, infura, local node</li>  |
+
+### Scripts
+
+| Script | Description |
+| ------------- | ------------- |
+| peers.ts | Connect to bootstrap nodes using devp2p protocol and log all peers that we see. Source: https://github.com/ethereumjs/ethereumjs-monorepo/tree/master/packages/devp2p |
+| createWallet.ts | Creates a wallet, prints private key to console. |
+| message.ts | Store a message in the data field of a transaction. |
+
