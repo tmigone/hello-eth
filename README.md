@@ -35,4 +35,5 @@ Content is organized in the following way:
 | peers.ts | Connect to bootstrap nodes using devp2p protocol and log all peers that we see. Source: https://github.com/ethereumjs/ethereumjs-monorepo/tree/master/packages/devp2p |
 | createWallet.ts | Creates a wallet, prints private key to console. |
 | message.ts | Store a message in the data field of a transaction. |
+| codeHash.ts | Get creationCodeHash and runtimeCodeHash for a given contract creation transaction. |
 

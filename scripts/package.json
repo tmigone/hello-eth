@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "typechain": "typechain --target ethers-v5 --out-dir types/ 'abis/*.json'"
   },
   "author": "Tomás Migone <tomasmigone@gmail.com>",
   "license": "MIT",
@@ -13,13 +14,15 @@
     "@ethereumjs/devp2p": "^4.2.1",
     "@ethereumjs/tx": "^3.5.0",
     "chalk": "^5.0.0",
-    "dotenv": "^16.0.0",
     "ethers": "^5.5.4",
     "ethrpc": "^6.2.4",
     "web3": "^1.7.0"
   },
   "devDependencies": {
+    "@typechain/ethers-v5": "^10.0.0",
+    "dotenv": "^16.0.1",
     "ts-standard": "^11.0.0",
+    "typechain": "^8.0.0",
     "typescript": "^4.5.5"
   }
 }
